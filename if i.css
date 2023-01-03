@@ -44,9 +44,8 @@ section{
 .example .example-content,
 .members .contact-content{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
-    justify-content: center;
     margin: 5px;
     flex-direction: row;
 }
