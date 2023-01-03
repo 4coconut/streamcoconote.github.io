@@ -69,10 +69,9 @@ section .title::before{
 }
 section .title::after{
     position: absolute;
-    bottom: -8px;
+    bottom: -7px;
     left: 50%;
-    font-size: 20px;
-    color: crimson;
+    font-size: 40%;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -276,7 +275,7 @@ section .title::after{
     color: #fff
 }
 .needs .needs-content .card{
-    width: calc(33% - 20px);
+    width: fit-content;
     background: #303841;
     text-align: center;
     border-radius: 5px;
