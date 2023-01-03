@@ -303,7 +303,7 @@ section .title::after{
     color: #fff;
 }
 .needs .needs-content .card .text{
-    font-size: 25px;
+    font-size: 3vw;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
