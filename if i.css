@@ -43,7 +43,7 @@ section{
 .needs .needs-content,
 .example .example-content,
 .members .contact-content{
-       display: flex;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -284,6 +284,7 @@ section .title::after{
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin: 5px;
 }
 .needs .needs-content .card:hover{
     background: #303841;
