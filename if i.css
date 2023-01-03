@@ -43,10 +43,12 @@ section{
 .needs .needs-content,
 .example .example-content,
 .members .contact-content{
-    display: flex;
+       display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 5px;
+    flex-direction: row;
 }
 section .title{
     position: relative;
