@@ -454,4 +454,8 @@ a:visited {
     color: #9ca794;
 }
 
-
+.streama {
+    padding: 80px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
